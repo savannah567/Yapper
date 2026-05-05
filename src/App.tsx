@@ -34,6 +34,7 @@ function App() {
       createdAt: new Date().toISOString(),
       text: input.trim(),
       likes: 0,
+      tag: "ROTY",
     }
     // put new tweet first then copy old tweets
     setTweets([newTweet, ...tweets]);
